@@ -1,0 +1,84 @@
+* {
+  font-family: Cambria;
+}
+
+h1 {
+  align-content: center ;
+  background-color: green;
+}
+
+h2 {
+  background-color: green;
+}
+
+.foto-perfil {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagen {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  width: 450px;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section:nth-child(2n) {
+  background-color: aliceblue;
+}
+
+section:nth-child(2n+1) {
+  background-color: gray;
+}
+
+/* Flexbox */
+
+main {
+  display: flex;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main #historiaacademica {
+  width: 32%;
+}
+
+main #educacionactual {
+  width: 32%;
+}
+
+main #proyectos {
+  width: 32%;
+}
+
+main #skills {
+  width: 49%;
+}
+
+main #infocontacto {
+  width: 49%;
+}
+
+main #contactame {
+  width: 100%;
+}
+
+main #lugardetrabajo {
+  width: 49%;
+}
+
+main #video {
+  width: 49%;
+}
